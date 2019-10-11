@@ -37,7 +37,7 @@ var startDate = new Date();
     };
 
     var timeDimensionControl = new L.Control.TimeDimension(timeDimensionControlOptions);
-    map.addControl(timeDimensionControl);
+    //map.addControl(timeDimensionControl);
 
 
     L.control.coordinates({
@@ -67,7 +67,7 @@ var startDate = new Date();
     iconSize: [20, 15],
 
     });
-    var markerDevice_10102=L.marker([22.2572,114.138], {icon: iconDevice_10102}).bindPopup("    Surface Drifter deployed here  <br> School/Lab :<br> Sacred Heart Canossian College<br> Teacher/PI : ___<br> Deployment ID : 10102<br>Started: 2017-06-17 11:20:13<br>Ended: 2017-06-22 06:39:57<br>Moving time: 01:39:18<br>Stopped time: 113:40:26<br>Points: 97<br>Length 2D: 10.443km<br>Avg distance between points: 107.66m");
+    var markerDevice_10102=L.marker([22.375585, 114.113842], {icon: iconDevice_10102}).bindPopup("Mobile Sensor was here <br> Owner : <br> Started: 2019-10-11 13:43:13<br> Last: 2019-10-11 14:03:00 <br> Particle Matter Concentration PM 2.5 in ug/m3 : 62.0 <br> Humidity in % : 72.04 <br> Temperature in C : 22.9");
     var myStyleDevice_10102 = {
     "color": "#000000",
     "weight": 2,
